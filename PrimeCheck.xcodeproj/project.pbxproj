@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68B146ED1E41B47D0029C095 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B146EC1E41B47D0029C095 /* AppDelegate.swift */; };
+		68B146EF1E41B47D0029C095 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B146EE1E41B47D0029C095 /* ViewController.swift */; };
+		68B146F21E41B47D0029C095 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68B146F01E41B47D0029C095 /* Main.storyboard */; };
+		68B146F41E41B47D0029C095 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68B146F31E41B47D0029C095 /* Assets.xcassets */; };
+		68B146F71E41B47D0029C095 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68B146F51E41B47D0029C095 /* LaunchScreen.storyboard */; };
+		68B147021E41B47D0029C095 /* PrimeCheckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B147011E41B47D0029C095 /* PrimeCheckTests.swift */; };
+		68B1470D1E41B47D0029C095 /* PrimeCheckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B1470C1E41B47D0029C095 /* PrimeCheckUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68B146FE1E41B47D0029C095 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68B146E11E41B47C0029C095 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68B146E81E41B47D0029C095;
+			remoteInfo = PrimeCheck;
+		};
+		68B147091E41B47D0029C095 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68B146E11E41B47C0029C095 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68B146E81E41B47D0029C095;
+			remoteInfo = PrimeCheck;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		68B146E91E41B47D0029C095 /* PrimeCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrimeCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68B146EC1E41B47D0029C095 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		68B146EE1E41B47D0029C095 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		68B146F11E41B47D0029C095 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68B146F31E41B47D0029C095 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68B146F61E41B47D0029C095 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		68B146F81E41B47D0029C095 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68B146FD1E41B47D0029C095 /* PrimeCheckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrimeCheckTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68B147011E41B47D0029C095 /* PrimeCheckTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeCheckTests.swift; sourceTree = "<group>"; };
+		68B147031E41B47D0029C095 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68B147081E41B47D0029C095 /* PrimeCheckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrimeCheckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68B1470C1E41B47D0029C095 /* PrimeCheckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeCheckUITests.swift; sourceTree = "<group>"; };
+		68B1470E1E41B47D0029C095 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68B146E61E41B47D0029C095 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68B146FA1E41B47D0029C095 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68B147051E41B47D0029C095 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68B146E01E41B47C0029C095 = {
+			isa = PBXGroup;
+			children = (
+				68B146EB1E41B47D0029C095 /* PrimeCheck */,
+				68B147001E41B47D0029C095 /* PrimeCheckTests */,
+				68B1470B1E41B47D0029C095 /* PrimeCheckUITests */,
+				68B146EA1E41B47D0029C095 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68B146EA1E41B47D0029C095 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68B146E91E41B47D0029C095 /* PrimeCheck.app */,
+				68B146FD1E41B47D0029C095 /* PrimeCheckTests.xctest */,
+				68B147081E41B47D0029C095 /* PrimeCheckUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68B146EB1E41B47D0029C095 /* PrimeCheck */ = {
+			isa = PBXGroup;
+			children = (
+				68B146EC1E41B47D0029C095 /* AppDelegate.swift */,
+				68B146EE1E41B47D0029C095 /* ViewController.swift */,
+				68B146F01E41B47D0029C095 /* Main.storyboard */,
+				68B146F31E41B47D0029C095 /* Assets.xcassets */,
+				68B146F51E41B47D0029C095 /* LaunchScreen.storyboard */,
+				68B146F81E41B47D0029C095 /* Info.plist */,
+			);
+			path = PrimeCheck;
+			sourceTree = "<group>";
+		};
+		68B147001E41B47D0029C095 /* PrimeCheckTests */ = {
+			isa = PBXGroup;
+			children = (
+				68B147011E41B47D0029C095 /* PrimeCheckTests.swift */,
+				68B147031E41B47D0029C095 /* Info.plist */,
+			);
+			path = PrimeCheckTests;
+			sourceTree = "<group>";
+		};
+		68B1470B1E41B47D0029C095 /* PrimeCheckUITests */ = {
+			isa = PBXGroup;
+			children = (
+				68B1470C1E41B47D0029C095 /* PrimeCheckUITests.swift */,
+				68B1470E1E41B47D0029C095 /* Info.plist */,
+			);
+			path = PrimeCheckUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68B146E81E41B47D0029C095 /* PrimeCheck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68B147111E41B47D0029C095 /* Build configuration list for PBXNativeTarget "PrimeCheck" */;
+			buildPhases = (
+				68B146E51E41B47D0029C095 /* Sources */,
+				68B146E61E41B47D0029C095 /* Frameworks */,
+				68B146E71E41B47D0029C095 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrimeCheck;
+			productName = PrimeCheck;
+			productReference = 68B146E91E41B47D0029C095 /* PrimeCheck.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68B146FC1E41B47D0029C095 /* PrimeCheckTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68B147141E41B47D0029C095 /* Build configuration list for PBXNativeTarget "PrimeCheckTests" */;
+			buildPhases = (
+				68B146F91E41B47D0029C095 /* Sources */,
+				68B146FA1E41B47D0029C095 /* Frameworks */,
+				68B146FB1E41B47D0029C095 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68B146FF1E41B47D0029C095 /* PBXTargetDependency */,
+			);
+			name = PrimeCheckTests;
+			productName = PrimeCheckTests;
+			productReference = 68B146FD1E41B47D0029C095 /* PrimeCheckTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		68B147071E41B47D0029C095 /* PrimeCheckUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68B147171E41B47D0029C095 /* Build configuration list for PBXNativeTarget "PrimeCheckUITests" */;
+			buildPhases = (
+				68B147041E41B47D0029C095 /* Sources */,
+				68B147051E41B47D0029C095 /* Frameworks */,
+				68B147061E41B47D0029C095 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68B1470A1E41B47D0029C095 /* PBXTargetDependency */,
+			);
+			name = PrimeCheckUITests;
+			productName = PrimeCheckUITests;
+			productReference = 68B147081E41B47D0029C095 /* PrimeCheckUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68B146E11E41B47C0029C095 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Taylor;
+				TargetAttributes = {
+					68B146E81E41B47D0029C095 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					68B146FC1E41B47D0029C095 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 68B146E81E41B47D0029C095;
+					};
+					68B147071E41B47D0029C095 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 68B146E81E41B47D0029C095;
+					};
+				};
+			};
+			buildConfigurationList = 68B146E41E41B47C0029C095 /* Build configuration list for PBXProject "PrimeCheck" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68B146E01E41B47C0029C095;
+			productRefGroup = 68B146EA1E41B47D0029C095 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68B146E81E41B47D0029C095 /* PrimeCheck */,
+				68B146FC1E41B47D0029C095 /* PrimeCheckTests */,
+				68B147071E41B47D0029C095 /* PrimeCheckUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68B146E71E41B47D0029C095 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68B146F71E41B47D0029C095 /* LaunchScreen.storyboard in Resources */,
+				68B146F41E41B47D0029C095 /* Assets.xcassets in Resources */,
+				68B146F21E41B47D0029C095 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68B146FB1E41B47D0029C095 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68B147061E41B47D0029C095 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68B146E51E41B47D0029C095 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68B146EF1E41B47D0029C095 /* ViewController.swift in Sources */,
+				68B146ED1E41B47D0029C095 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68B146F91E41B47D0029C095 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68B147021E41B47D0029C095 /* PrimeCheckTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68B147041E41B47D0029C095 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68B1470D1E41B47D0029C095 /* PrimeCheckUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68B146FF1E41B47D0029C095 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68B146E81E41B47D0029C095 /* PrimeCheck */;
+			targetProxy = 68B146FE1E41B47D0029C095 /* PBXContainerItemProxy */;
+		};
+		68B1470A1E41B47D0029C095 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68B146E81E41B47D0029C095 /* PrimeCheck */;
+			targetProxy = 68B147091E41B47D0029C095 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		68B146F01E41B47D0029C095 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68B146F11E41B47D0029C095 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		68B146F51E41B47D0029C095 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68B146F61E41B47D0029C095 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68B1470F1E41B47D0029C095 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68B147101E41B47D0029C095 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68B147121E41B47D0029C095 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PrimeCheck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tfloydmews.PrimeCheck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		68B147131E41B47D0029C095 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PrimeCheck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tfloydmews.PrimeCheck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		68B147151E41B47D0029C095 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PrimeCheckTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tfloydmews.PrimeCheckTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrimeCheck.app/PrimeCheck";
+			};
+			name = Debug;
+		};
+		68B147161E41B47D0029C095 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PrimeCheckTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tfloydmews.PrimeCheckTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrimeCheck.app/PrimeCheck";
+			};
+			name = Release;
+		};
+		68B147181E41B47D0029C095 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PrimeCheckUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tfloydmews.PrimeCheckUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PrimeCheck;
+			};
+			name = Debug;
+		};
+		68B147191E41B47D0029C095 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PrimeCheckUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tfloydmews.PrimeCheckUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PrimeCheck;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68B146E41E41B47C0029C095 /* Build configuration list for PBXProject "PrimeCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68B1470F1E41B47D0029C095 /* Debug */,
+				68B147101E41B47D0029C095 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68B147111E41B47D0029C095 /* Build configuration list for PBXNativeTarget "PrimeCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68B147121E41B47D0029C095 /* Debug */,
+				68B147131E41B47D0029C095 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		68B147141E41B47D0029C095 /* Build configuration list for PBXNativeTarget "PrimeCheckTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68B147151E41B47D0029C095 /* Debug */,
+				68B147161E41B47D0029C095 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		68B147171E41B47D0029C095 /* Build configuration list for PBXNativeTarget "PrimeCheckUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68B147181E41B47D0029C095 /* Debug */,
+				68B147191E41B47D0029C095 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68B146E11E41B47C0029C095 /* Project object */;
+}
